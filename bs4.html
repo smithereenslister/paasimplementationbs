@@ -1,44 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Clock</title>
-    <link rel="stylesheet" href="styles.css">
-    <script type="text/javascript" src="script.js"></script>
-</head>
-<body>
-  <div class="container">
-    <div id="time">
-      <div class="circle" style="--color: #ff2972">
-        <div class="dots h_dot"></div>
-        <svg>
-          <circle cx="70" cy="70" r="70"></circle>
-          <circle cx="70" cy="70" r="70" id="hh"></circle>
-        </svg>
-        <div id="hours">00</div>
-      </div>
-      <div class="circle" style="--color: #fee800">
-        <div class="dots m_dot"></div>
-        <svg>
-          <circle cx="70" cy="70" r="70"></circle>
-          <circle cx="70" cy="70" r="70" id="mm"></circle>
-        </svg>
-        <div id="minutes">00</div>
-      </div>
-      <div class="circle" style="--color: #04fc43">
-        <div class="dots s_dot"></div>
-        <svg>
-          <circle cx="70" cy="70" r="70"></circle>
-          <circle cx="70" cy="70" r="70" id="ss"></circle>
-        </svg>
-        <div id="seconds">00</div>
-      </div>
-      <div class="ap">
-        <div id="ampm">AM</div>
-      </div>
-    </div>
-  </div>
-</body>
+  <head>
+    <title>Responsive 404 Not Found Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+
+  </head>
+  <body>
+  <div class="center">
+  <section class="error">
+    <h1 class="error__title">404</h1>
+    <h2 class="error__type">Page not found</h2>
+    <p class="error__cta">We’re sorry, the page you have looked for does not exist in our database! Maybe go to our <a class="error__link error__link--purple" href="#" target="_blank">home page</a> or try to use a <a class="error__link error__link--blue" href="#" target="_blank">search?</a></p>
+  </section>
+</div>
+
+<div class="astronaut">
+  <img src="https://images.vexels.com/media/users/3/152639/isolated/preview/506b575739e90613428cdb399175e2c8-space-astronaut-cartoon-by-vexels.png" alt="" class="src">
+</div>
+<script src="script.js"></script>
+  </body>
 </html>
